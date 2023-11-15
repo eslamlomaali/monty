@@ -58,4 +58,5 @@ extern bus_t bus;
 void pall_stt(stack_t **topp, unsigned int number);
 void push_in_stack(stack_t **topp, unsigned int number);
 void free_s(stack_t *h);
+void print_top(stack_t **h, unsigned int number);
 #endif
