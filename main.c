@@ -8,8 +8,8 @@ bus_t bus = {NULL, NULL, NULL, 0};
 */
 int main(int acc, char *avv[])
 {
-	char *e;
-	FILE *s;
+	char *content;
+	FILE *file;
 	size_t l = 0;
 	ssize_t a = 1;
 	stack_t *m = NULL;
@@ -20,26 +20,26 @@ int main(int acc, char *avv[])
 		fprintf(stderr, "USAGE: monty file\n");
 		exit(EXIT_FAILURE);
 	}
-	s = fopen(avv[1], "r");
-	bus.s = s;
-	if (!s)
+	file = fopen(avv[1], "r");
+	bus.file = file;
+	if (!file)
 	{
 		fprintf(stderr, "Error: Can't open file %s\n", avv[1]);
 		exit(EXIT_FAILURE);
 	}
 	while (a > 0)
 	{
-		e = NULL;
-		a = getline(&e, &l, s);
-		bus.e = e;
+		content = NULL;
+		a = getline(&content, &l, file);
+		bus.content = content;
 		ashraf++;
 		if (a > 0)
 		{
-			execute(e, &m, ashraf, s);
+			execute(content, &m, ashraf, file);
 		}
-		free(e);
+		free(content);
 	}
 	free_stack(m);
-	fclose(s);
+	fclose(file);
 return (0);
 }

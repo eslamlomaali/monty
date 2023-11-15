@@ -39,21 +39,23 @@ typedef struct instruction_s
 } instruction_t;
 
 /**
- * struct bus_s - value -pointer, content, flags
- * @y: value
- * @s: pointer for mo
- * @e: content
- * @x: flags
- * Description: hold val via programm
+ * struct bus_s - struct
+ * @eslam: value
+ * @file: pointer for monty
+ * @content: line
+ * @ali: flag
+ * Description: hold value via  program
  */
 typedef struct bus_s
 {
-	char *y;
-	FILE *s;
-	char *e;
-	int x;
+	char *eslam;
+	FILE *file;
+	char *content;
+	int ali;
 }  bus_t;
 extern bus_t bus;
 
 void pall_stt(stack_t **topp, unsigned int number);
+void push_in_stack(stack_t **topp, unsigned int number);
+void free_s(stack_t *h);
 #endif
