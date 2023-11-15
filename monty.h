@@ -55,5 +55,5 @@ typedef struct bus_s
 }  bus_t;
 extern bus_t bus;
 
-void pall_stt(stack_t **topp, unsigned int loopp);
+void pall_stt(stack_t **topp, unsigned int number);
 #endif
