@@ -9,7 +9,7 @@ void free_st(stack_t *h)
 
 	if ((h) != NULL)
 	{
-		while ((h)!= NULL)
+		while ((h) != NULL)
 		{
 			easy = h;
 			h = h->next;
