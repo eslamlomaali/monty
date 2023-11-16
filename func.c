@@ -12,6 +12,7 @@ void func(stack_t **head, unsigned int line_number)
 		{"swap", opp},
 		{"sub", rem_two},
 		{"add", put_two},
+		{"div", div_two},
 		{"nop", not_any},
 		{"pint", print_allall},
 		{"pall", print_all},
