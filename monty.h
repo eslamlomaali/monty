@@ -62,5 +62,5 @@ char **formater(char *enter);
 int is_empty(char **sstring);
 void free_st(stack_t *h);
 int is_num(char *num);
-void pint_top(stack_t **listss, unsigned int l_num);
+void pop(stack_t **listss, unsigned int line_number);
 #endif

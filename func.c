@@ -8,6 +8,7 @@ void func(stack_t **head, unsigned int line_number)
 {
 	instruction_t eleventh[] = {
 		{"push", push},
+		{"pop", pop},
 		{"pall", pall}
 	};
 	int x;
