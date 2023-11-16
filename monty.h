@@ -63,4 +63,5 @@ int is_empty(char **sstring);
 void free_st(stack_t *h);
 int is_num(char *num);
 void pop(stack_t **listss, unsigned int line_number);
+void swap(stack_t **listss, unsigned int line_number);
 #endif
