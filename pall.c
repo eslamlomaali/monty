@@ -4,7 +4,7 @@
  *starting from the top of the stack.
  *
  *@listss: list of elements
- *@calc_line: command
+ *@calc_line: cmd
  *
  */
 void pall(stack_t **listss,  __attribute__((unused))unsigned int calc_line)

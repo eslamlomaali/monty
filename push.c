@@ -2,7 +2,7 @@
 /**
  *push - The opcode push pushes an element to the stack.
  *@listss: stack
- *@calc_line: command
+ *@calc_line: cmd
  */
 void push(stack_t **listss, __attribute__((unused))unsigned int calc_line)
 {

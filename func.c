@@ -11,6 +11,7 @@ void func(stack_t **head, unsigned int line_number)
 		{"pop", pop},
 		{"swap", swap},
 		{"add", add},
+		{"nop", nop},
 		{"pint", pint},
 		{"pall", pall},
 		{NULL, NULL}

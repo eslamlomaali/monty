@@ -2,7 +2,7 @@
 /**
  * add - The opcode add adds the top two elements of the stack.
  * @listss: stack
- * @line_number: line of the flie
+ * @line_number: flie line
  * Return: void
 */
 void add(stack_t **listss, unsigned int line_number)
