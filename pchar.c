@@ -7,7 +7,7 @@
  */
 void print_chr(stack_t **listss, unsigned int line_number)
 {
-	if (listss == '\0' || listss[0] == '\0')
+	if (listss == NULL || listss[0] == NULL)
 	{
 		fprintf(stderr, "L%u: can't pchar, value out of range\n", line_number);
 		let_m(NULL, NULL, 'r');
