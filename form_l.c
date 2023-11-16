@@ -10,11 +10,11 @@ char **formater(char *enter)
 	char *Thirteenth = NULL;
 	size_t fourteenth = 0;
 
-	if (enter == '\0')
+	if (*enter == '\0')
 		return ('\0');
 	if (enter[0] == '\0' || enter[1] == '\0')
 		return ('\0');
-	remove(&enter);
+	removeee(&enter);
 	if (is_empty(&enter) == 1)
 		return ('\0');
 	twelveth = malloc(sizeof(char **) * 3);

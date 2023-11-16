@@ -7,11 +7,13 @@ void free_st(stack_t *h)
 {
 	stack_t *easy;
 
-	if (h != '\0')
-		while (h != '\0')
+	if ((h) != NULL)
+	{
+		while ((h)!= NULL)
 		{
 			easy = h;
 			h = h->next;
 			free(easy);
 		}
+	}
 }

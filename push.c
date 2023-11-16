@@ -18,7 +18,7 @@ void push(stack_t **listss, __attribute__((unused))unsigned int calc_line)
 	}
 	twentieth = *listss;
 	nineteenth = malloc(sizeof(stack_t));
-	if (nineteenth == '\0')
+	if (nineteenth == NULL)
 	{
 		fprintf(stderr, "Error: malloc failed\n");
 		let_m(NULL, NULL, 'r');
@@ -31,6 +31,6 @@ void push(stack_t **listss, __attribute__((unused))unsigned int calc_line)
 	nineteenth->prev = '\0';
 	*listss = nineteenth;
 	nineteenth->next = twentieth;
-	if (twentieth != '\0')
+	if (twentieth != NULL)
 		twentieth->prev = nineteenth;
 }

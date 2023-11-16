@@ -9,11 +9,11 @@ void func(stack_t **head, unsigned int line_number)
 	instruction_t eleventh[] = {
 		{"push", push},
 		{"pall", pall},
-		{"pint", pint},
+		/*{"pint", pint},
 		{"pop", pop},
 		{"swap", swap},
 		{"add", add},
-		{"nop", nop},
+		{"nop", nop},*/
 	};
 	int x;
 

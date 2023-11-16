@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
- *remove - remove lines
+ *removeee - remove lines
  *@sstring: string ot remove
  */
-void remove(char **sstring)
+void removeee(char **sstring)
 {
 	int Fifteenth = 0;
 	char *sixteen = *sstring;

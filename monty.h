@@ -55,10 +55,11 @@ help_t helper;
 
 void push(stack_t **listss, unsigned int line_number);
 void pall(stack_t **listss, unsigned int line_number);
-void remove(char **sstring);
+void removeee(char **sstring);
 void func(stack_t **head, unsigned int line_number);
 void let_m(FILE **sixth, char **seventh, char eigth);
 char **formater(char *enter);
 int is_empty(char **sstring);
 void free_st(stack_t *h);
 int is_num(char *num);
+#endif

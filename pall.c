@@ -11,10 +11,10 @@ void pall(stack_t **listss,  __attribute__((unused))unsigned int calc_line)
 {
 	stack_t *eighteen;
 
-	eighteen = *lists;
-	if (eighteen == '\0')
+	eighteen = *listss;
+	if (eighteen == NULL)
 		return;
-	while (eighteen != '\0')
+	while (eighteen != NULL)
 	{
 		printf("%i\n", eighteen->n);
 		eighteen = eighteen->next;
