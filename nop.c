@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * nop- The opcode nop doesn’t do anything
+ * not_any- The opcode nop doesn’t do anything
  * @listss: stack
- * @line_number:  flie line
+ * @l:  flie line
  * Return: void
 */
-void nop(stack_t **listss, __attribute__((unused))unsigned int line_number)
+void not_any(stack_t **listss, __attribute__((unused))unsigned int l)
 {
 	(void)listss;
 }
