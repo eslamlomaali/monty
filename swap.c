@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- *swap - The opcode swap swaps the top two elements of the stack.
+ *opp - The opcode swap swaps the top two elements of the stack.
  *@listss: stack
  *@last_line: isntruction num
  */
-void swap(stack_t **listss, unsigned int last_line)
+void opp(stack_t **listss, unsigned int last_line)
 {
 	stack_t *thirdtwice, *fourthtwice;
 

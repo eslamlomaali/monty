@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * add - The opcode add adds the top two elements of the stack.
+ * put_two - The opcode add adds the top two elements of the stack.
  * @listss: stack
  * @line_number: flie line
  * Return: void
 */
-void add(stack_t **listss, unsigned int line_number)
+void put_two(stack_t **listss, unsigned int line_number)
 {
 	stack_t *fifthtwice, *sixthtwice;
 

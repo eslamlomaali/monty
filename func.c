@@ -7,13 +7,13 @@
 void func(stack_t **head, unsigned int line_number)
 {
 	instruction_t eleventh[] = {
-		{"push", push},
-		{"pop", pop},
-		{"swap", swap},
-		{"add", add},
+		{"push", put},
+		{"pop", del},
+		{"swap", opp},
+		{"add", put_two},
 		{"nop", not_any},
-		{"pint", pint},
-		{"pall", pall},
+		{"pint", print_allall},
+		{"pall", print_all},
 		{NULL, NULL}
 	};
 	int x;

@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- *push - The opcode push pushes an element to the stack.
+ *put - The opcode push pushes an element to the stack.
  *@listss: stack
  *@calc_line: cmd
  */
-void push(stack_t **listss, __attribute__((unused))unsigned int calc_line)
+void put(stack_t **listss, __attribute__((unused))unsigned int calc_line)
 {
 	stack_t *nineteenth, *twentieth;
 

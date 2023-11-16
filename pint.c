@@ -1,12 +1,12 @@
 #include "monty.h"
 /**
- *pint - The opcode pint prints the value at the top
+ *print_allall - The opcode pint prints the value at the top
  *of the stack, followed by a new line.
  *
  *@listss: elements
  *@line_number: instruction num
  */
-void pint(stack_t **listss, unsigned int line_number)
+void print_allall(stack_t **listss, unsigned int line_number)
 {
 	if (*listss == NULL)
 	{

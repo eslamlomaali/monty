@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- *pop - The opcode swap swaps the top two elements of the stack.
+ *del - The opcode swap swaps the top two elements of the stack.
  *@listss: of elements
  *@last_line: instruction num
  */
-void pop(stack_t **listss, unsigned int last_line)
+void del(stack_t **listss, unsigned int last_line)
 {
 	stack_t *seconedtwice;
 

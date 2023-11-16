@@ -53,8 +53,8 @@ typedef struct help
 
 help_t helper;
 
-void push(stack_t **listss, unsigned int line_number);
-void pall(stack_t **listss, unsigned int line_number);
+void put(stack_t **listss, unsigned int line_number);
+void print_all(stack_t **listss, unsigned int line_number);
 void removeee(char **sstring);
 void func(stack_t **head, unsigned int line_number);
 void let_m(FILE **sixth, char **seventh, char eigth);
@@ -62,9 +62,9 @@ char **formater(char *enter);
 int is_empty(char **sstring);
 void free_st(stack_t *h);
 int is_num(char *num);
-void pop(stack_t **listss, unsigned int line_number);
-void swap(stack_t **listss, unsigned int line_number);
-void add(stack_t **listss, unsigned int line_number);
-void pint(stack_t **listss, unsigned int line_number);
+void del(stack_t **listss, unsigned int line_number);
+void opp(stack_t **listss, unsigned int line_number);
+void put_two(stack_t **listss, unsigned int line_number);
+void print_allall(stack_t **listss, unsigned int line_number);
 void not_any(stack_t **listss, unsigned int line_number);
 #endif
