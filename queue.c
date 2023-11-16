@@ -11,7 +11,14 @@ void f_qu(stack_t **listss, unsigned int line_number)
 	(void)line_number;
 	helper.joo = 1;
 }
-void addqueue(stack_t **listss, int n)
+
+/**
+ * add_three - add node to a queue
+ * @listss: linked list
+ * @n: number
+ * Return: void
+ **/
+void add_three(stack_t **listss, int n)
 {
 	stack_t *b, *a;
 
