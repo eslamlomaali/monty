@@ -10,7 +10,9 @@ void func(stack_t **head, unsigned int line_number)
 		{"push", push},
 		{"pop", pop},
 		{"swap", swap},
-		{"pall", pall}
+		{"add", add},
+		{"pall", pall},
+		{NULL, NULL}
 	};
 	int x;
 
