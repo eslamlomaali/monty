@@ -1,5 +1,5 @@
-Data Structures:
-----------------
+## Data Structures:
+
 LIFO, FIFO Stacks and Queues<br>
 Monty project<br>
 Done by Eslam and Youssef<br>
