@@ -6,7 +6,7 @@
  */
 void rot_left(stack_t **listss, unsigned int __attribute__((unused))line_number)
 {
-	stack_t *first, *lsat;
+	stack_t *first, *last;
 
 	if (listss == NULL || *listss == NULL)
 		return;
