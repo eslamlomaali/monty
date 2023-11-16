@@ -45,14 +45,12 @@ typedef struct instruction_s
 /**
  * struct help - helper
  * @point: pointer
- * @joo: help
  *
  * Description: helper var
 */
 typedef struct help
 {
 	char **point;
-	int joo;
 } help_t;
 
 help_t helper;
