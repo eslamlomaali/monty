@@ -15,6 +15,7 @@ void func(stack_t **head, unsigned int line_number)
 		{"mod", mod_two},
 		{"div", div_two},
 		{"nop", not_any},
+		{"rotr", rot_right},
 		{"pint", print_allall},
 		{"pchar", print_chr},
 		{"mul", mul_two},
