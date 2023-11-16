@@ -4,11 +4,9 @@
  * @listss: stack
  * @line_number: instructions' nums
  * Return: void
-*/
+ */
 void print_chr(stack_t **listss, unsigned int line_number)
 {
-	stack_t *fifthtwice, *sixthtwice;
-
 	if (*listss == NULL || (*listss)->next == NULL)
 	{
 		fprintf(stderr, "L%u: can't pchar, value out of range\n", line_number);
@@ -26,5 +24,4 @@ void print_chr(stack_t **listss, unsigned int line_number)
 		exit(EXIT_FAILURE);
 	}
 	printf("%c\n", listss[0]->n);
-
 }
