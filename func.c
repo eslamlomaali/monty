@@ -15,6 +15,7 @@ void func(stack_t **head, unsigned int line_number)
 		{"div", div_two},
 		{"nop", not_any},
 		{"pint", print_allall},
+		{"mul", mul_two},
 		{"pall", print_all},
 		{NULL, NULL}
 	};
