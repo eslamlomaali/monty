@@ -1,7 +1,7 @@
 #ifndef MONTY_H
 #define MONTY_H
 
-/* standard libraries */
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -10,6 +10,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <ctype.h>
+#define _GNU_SOURCE
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
