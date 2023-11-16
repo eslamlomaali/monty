@@ -75,5 +75,5 @@ void mul_two(stack_t **listss, unsigned int line_number);
 void mod_two(stack_t **listss, unsigned int line_number);
 void print_chr(stack_t **listss, unsigned int line_number);
 void print_str(stack_t **listss, unsigned int line_number);
-void rotl(stack_t **listss, unsigned int line_number);
+void rot_left(stack_t **listss, unsigned int line_number);
 #endif
