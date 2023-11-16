@@ -1,2 +1,2 @@
 Data Structures:
-LIFO, FIFO stacks and
+LIFO, FIFO Stacks and Queues
