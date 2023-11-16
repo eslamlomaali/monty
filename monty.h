@@ -45,7 +45,7 @@ typedef struct instruction_s
 /**
  * struct help - helper
  * @point: pointer
- * joo: help
+ * @joo: help
  *
  * Description: helper var
 */
