@@ -18,6 +18,7 @@ void func(stack_t **head, unsigned int line_number)
 		{"pint", print_allall},
 		{"pchar", print_chr},
 		{"mul", mul_two},
+		{"rotl", rot_lef},
 		{"pstr", print_str},
 		{"pall", print_all},
 		{NULL, NULL}
