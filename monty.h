@@ -73,4 +73,5 @@ void rem_two(stack_t **listss, unsigned int line_number);
 void div_two(stack_t **listss, unsigned int line_number);
 void mul_two(stack_t **listss, unsigned int line_number);
 void mod_two(stack_t **listss, unsigned int line_number);
+void print_chr(stack_t **listss, unsigned int line_number);
 #endif
