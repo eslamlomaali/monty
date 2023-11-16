@@ -65,4 +65,5 @@ int is_num(char *num);
 void pop(stack_t **listss, unsigned int line_number);
 void swap(stack_t **listss, unsigned int line_number);
 void add(stack_t **listss, unsigned int line_number);
+void pint(stack_t **listss, unsigned int line_number);
 #endif
