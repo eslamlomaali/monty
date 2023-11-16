@@ -9,4 +9,4 @@ Top of the stack is the last element pushed in it<br>
 Top is also the first element being popped<br>
 Queue is another data structure where the first<br>
 Element pushed is the first one popped<br>
-some modifications<br>
+Some modifications<br>
