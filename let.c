@@ -20,5 +20,4 @@ void let_m(FILE **sixth, char **seventh, char eigth)
 		free(tenth);
 		fclose(ninth);
 	}
-
 }
