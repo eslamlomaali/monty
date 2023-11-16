@@ -51,6 +51,7 @@ typedef struct instruction_s
 typedef struct help
 {
 	char **point;
+	int joo;
 } help_t;
 
 help_t helper;
@@ -77,5 +78,6 @@ void print_chr(stack_t **listss, unsigned int line_number);
 void print_str(stack_t **listss, unsigned int line_number);
 void rot_left(stack_t **listss, unsigned int line_number);
 void rot_right(stack_t **listss, unsigned int line_number);
+void f_st(stack_t **listss, unsigned int line_number);
 
 #endif
