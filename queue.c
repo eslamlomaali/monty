@@ -11,4 +11,31 @@ void f_qu(stack_t **listss, unsigned int line_number)
 	(void)line_number;
 	helper.joo = 1;
 }
+void addqueue(stack_t **listss, int n)
+{
+	stack_t *b, *a;
 
+	a = *listss;
+	b = malloc(sizeof(stack_t));
+	if (b == NULL)
+	{
+		printf("Error\n");
+	}
+	b->n = n;
+	b->next = NULL;
+	if (a)
+	{
+		while (a->next)
+			a = a->next;
+	}
+	if (!a)
+	{
+		*listss = b;
+		b->prev = NULL;
+	}
+	else
+	{
+		a->next = b;
+		b->prev = a;
+	}
+}
