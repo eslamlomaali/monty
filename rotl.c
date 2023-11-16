@@ -1,10 +1,12 @@
 #include "monty.h"
 /**
- *rot_left - The opcode rotl rotates the stack to the top.
- *@listss: stack
- *@line_number: number of instructions
+ * rot_left - The opcode rotl rotates the stack to the top.
+ * @listss: stack
+ * @line_number: number of instructions
+ * Return: void
  */
-void rot_left(stack_t **listss, unsigned int __attribute__((unused))line_number)
+void rot_left(stack_t **listss,
+unsigned int __attribute__((unused))line_number)
 {
 	stack_t *first, *last;
 
