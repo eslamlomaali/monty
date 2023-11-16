@@ -69,4 +69,5 @@ void opp(stack_t **listss, unsigned int line_number);
 void put_two(stack_t **listss, unsigned int line_number);
 void print_allall(stack_t **listss, unsigned int line_number);
 void not_any(stack_t **listss, unsigned int line_number);
+void rem_two(stack_t **listss, unsigned int line_number);
 #endif

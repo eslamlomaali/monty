@@ -11,7 +11,7 @@ void rem_two(stack_t **listss, unsigned int line_number)
 
 	if (*listss == NULL || (*listss)->next == NULL)
 	{
-		fprintf(stderr, "L%u: can't add, stack too short\n", line_number);
+		fprintf(stderr, "L%u: can't sub, stack too short\n", line_number);
 		let_m(NULL, NULL, 'r');
 		free_st(*listss);
 		free(helper.point);
