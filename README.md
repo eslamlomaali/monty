@@ -3,4 +3,4 @@ Data Structures:
 LIFO, FIFO Stacks and Queues
 Monty project
 Done by Eslam and Youssef
-A stack is filled 
+A stack is filled using push
