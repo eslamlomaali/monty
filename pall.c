@@ -7,7 +7,8 @@
  *@calc_line: cmd
  *
  */
-void print_all(stack_t **listss,  __attribute__((unused))unsigned int calc_line)
+void print_all(stack_t **listss,  __attribute__((unused))
+		unsigned int calc_line)
 {
 	stack_t *eighteen;
 
