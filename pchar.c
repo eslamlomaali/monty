@@ -15,7 +15,7 @@ void print_chr(stack_t **listss, unsigned int line_number)
 		free(helper.point);
 		exit(EXIT_FAILURE);
 	}
-	if (listss[0]->n < 32 || listss[0]->n > 126)
+	if (listss[0]->n < 32 || listss[0]->n > 127)
 	{
 		fprintf(stderr, "L%u: can't pchar, value out of range\n", line_number);
 		let_m(NULL, NULL, 'r');
